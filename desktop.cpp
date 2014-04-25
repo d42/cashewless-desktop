@@ -63,10 +63,6 @@ DefaultDesktop::~DefaultDesktop()
 void DefaultDesktop::init() {
     super::setContainmentType(super::CustomContainment);
     super::init();
-    //closeToolBox();
-    //setToolBox(NULL);
-    kDebug() << "rucham psa jak sra";
-    //super::setContainmentType(super::DesktopContainment);
 }
 
 void DefaultDesktop::constraintsEvent(Plasma::Constraints constraints)
